@@ -1,0 +1,48 @@
+2025-07-31 20:36:08,079 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.36:5000
+2025-07-31 20:36:08,079 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 20:36:08,080 - INFO -  * Restarting with stat
+2025-07-31 20:36:08,300 - WARNING -  * Debugger is active!
+2025-07-31 20:36:08,303 - INFO -  * Debugger PIN: 773-790-881
+2025-07-31 20:36:33,782 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:33] "GET / HTTP/1.1" 200 -
+2025-07-31 20:36:56,772 - INFO - 127.0.0.1 - - [31/Jul/2025 20:36:56] "GET / HTTP/1.1" 200 -
+2025-08-04 22:10:10,952 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.36:5000
+2025-08-04 22:10:10,953 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 22:10:10,954 - INFO -  * Restarting with stat
+2025-08-04 22:10:11,120 - WARNING -  * Debugger is active!
+2025-08-04 22:10:11,124 - INFO -  * Debugger PIN: 119-440-813
+2025-08-05 10:31:28,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.36:5000
+2025-08-05 10:31:28,670 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 10:31:28,671 - INFO -  * Restarting with stat
+2025-08-05 10:31:28,831 - WARNING -  * Debugger is active!
+2025-08-05 10:31:28,833 - INFO -  * Debugger PIN: 119-440-813
+2025-08-05 10:33:25,919 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.36:5000
+2025-08-05 10:33:25,919 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 10:33:25,920 - INFO -  * Restarting with stat
+2025-08-05 10:33:26,083 - WARNING -  * Debugger is active!
+2025-08-05 10:33:26,086 - INFO -  * Debugger PIN: 119-440-813
+2025-08-05 10:36:30,374 - INFO -  * Detected change in '/home/lks/revit-plugins-server/test_extended_system.py', reloading
+2025-08-05 10:36:30,426 - INFO -  * Restarting with stat
+2025-08-05 10:36:30,603 - WARNING -  * Debugger is active!
+2025-08-05 10:36:30,605 - INFO -  * Debugger PIN: 119-440-813
+2025-08-05 10:37:48,123 - INFO -  * Detected change in '/home/lks/revit-plugins-server/test_extended_system.py', reloading
+2025-08-05 10:37:48,258 - INFO -  * Restarting with stat
+2025-08-05 10:37:48,571 - WARNING -  * Debugger is active!
+2025-08-05 10:37:48,576 - INFO -  * Debugger PIN: 119-440-813
+2025-08-05 10:44:43,894 - INFO -  * Detected change in '/home/lks/revit-plugins-server/test_extended_system.py', reloading
+2025-08-05 10:44:43,940 - INFO -  * Restarting with stat
+2025-08-05 10:44:44,149 - WARNING -  * Debugger is active!
+2025-08-05 10:44:44,179 - INFO -  * Debugger PIN: 119-440-813
+2025-08-06 23:06:34,332 - INFO -  * Detected change in '/home/lks/revit-plugins-server/app.py', reloading
+2025-08-06 23:06:34,367 - INFO -  * Restarting with stat

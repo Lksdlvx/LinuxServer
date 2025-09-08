@@ -1,0 +1,66 @@
+{
+  "packs": {
+    "basic": {
+      "name": "Pack Basique",
+      "description": "Outils essentiels pour débuter",
+      "plugins": ["hello_world", "element_counter", "basic_info"],
+      "price": 29.99,
+      "category": "starter"
+    },
+    "structural": {
+      "name": "Pack Structural",
+      "description": "Outils pour ingénieurs structure",
+      "plugins": ["beam_analyzer", "column_checker", "foundation_calc", "load_calculator"],
+      "price": 89.99,
+      "category": "engineering"
+    },
+    "architectural": {
+      "name": "Pack Architectural",
+      "description": "Outils pour architectes",
+      "plugins": ["room_analyzer", "wall_optimizer", "door_scheduler", "window_manager"],
+      "price": 79.99,
+      "category": "design"
+    },
+    "premium": {
+      "name": "Pack Premium",
+      "description": "Tous les outils professionnels",
+      "plugins": ["*"],
+      "price": 199.99,
+      "category": "professional",
+      "includes_packs": ["basic", "structural", "architectural"]
+    },
+    "custom_bim": {
+      "name": "BIM Custom",
+      "description": "Outils BIM spécialisés",
+      "plugins": ["ifc_exporter", "clash_detector", "bim_validator", "model_checker"],
+      "price": 149.99,
+      "category": "bim"
+    }
+  },
+  "individual_plugins": {
+    "hello_world": {
+      "name": "Hello World",
+      "description": "Plugin de test et démonstration",
+      "price": 0.00,
+      "category": "demo"
+    },
+    "element_counter": {
+      "name": "Compteur d'Éléments",
+      "description": "Compte tous les éléments du projet",
+      "price": 9.99,
+      "category": "utility"
+    },
+    "beam_analyzer": {
+      "name": "Analyseur de Poutres",
+      "description": "Analyse structurelle des poutres",
+      "price": 29.99,
+      "category": "engineering"
+    },
+    "advanced_calculator": {
+      "name": "Calculateur Avancé",
+      "description": "Calculs complexes pour ingénieurs",
+      "price": 39.99,
+      "category": "engineering"
+    }
+  }
+}

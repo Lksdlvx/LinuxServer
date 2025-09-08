@@ -1,0 +1,76 @@
+{
+  "test@example.com": {
+    "name": "Jean Dupont",
+    "api_key": "flask-test-key-123456",
+    "active": true,
+    "allowed_plugins": ["hello_world", "element_counter"],
+    "allowed_packs": ["basic"],
+    "expires": "2025-12-31",
+    "created_at": "2025-01-15T10:30:00",
+    "machines": {
+      "DESKTOP-ABC123_JEAN.DUPONT": {
+        "machine_id": "DESKTOP-ABC123_JEAN.DUPONT",
+        "computer_name": "DESKTOP-ABC123",
+        "autodesk_user": "jean.dupont",
+        "first_seen": "2025-01-15T10:30:00",
+        "last_seen": "2025-08-05T14:20:00",
+        "authorized": true
+      }
+    },
+    "license_settings": {
+      "max_machines": 2,
+      "concurrent_usage": false,
+      "machine_binding": true
+    }
+  },
+  "architect@company.com": {
+    "name": "Marie Martin",
+    "api_key": "architect-key-789012",
+    "active": true,
+    "allowed_plugins": ["advanced_calculator"],
+    "allowed_packs": ["architectural", "structural"],
+    "expires": "2025-12-31",
+    "created_at": "2025-01-20T08:00:00",
+    "machines": {
+      "WORKSTATION-PRO_MARIE.MARTIN": {
+        "machine_id": "WORKSTATION-PRO_MARIE.MARTIN",
+        "computer_name": "WORKSTATION-PRO",
+        "autodesk_user": "marie.martin",
+        "first_seen": "2025-01-20T08:00:00",
+        "last_seen": "2025-08-05T12:30:00",
+        "authorized": true
+      }
+    },
+    "license_settings": {
+      "max_machines": 1,
+      "concurrent_usage": false,
+      "machine_binding": true
+    }
+  },
+  "l.delevaux@company.com": {
+    "allowed_packs": ["basic"],
+    "expires": "2025-12-31",
+    "machines": {
+      "LAPTOP-LUD4E7Q6_L.DELEVAUX": {
+        "machine_id": "LAPTOP-LUD4E7Q6_L.DELEVAUX",
+        "revit_version": "2024",
+        "autodesk_user": "l.delevaux",
+        "first_seen": "2025-09-01T22:33:24.653000",
+        "computer_name": "LAPTOP-LUD4E7Q6",
+        "last_seen": "2025-09-01T22:33:24.653000",
+        "os_version": "Windows 10",
+        "authorized": true
+      }
+    },
+    "api_key": "key-l.delevaux-e73f1da1f127",
+    "allowed_plugins": ["hello_world", "element_counter"],
+    "created_at": "2025-09-01T22:33:24.653000",
+    "name": "L.Delevaux",
+    "active": true,
+    "license_settings": {
+      "concurrent_usage": false,
+      "max_machines": 2,
+      "machine_binding": true
+    }
+  }
+}

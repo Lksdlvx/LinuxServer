@@ -1,0 +1,25 @@
+2025-09-08 21:54:23,010 ERROR Erreur user_plugins pour unknown: user
+2025-09-08 21:56:27,212 INFO Configuration utilisateurs chargée: 3 utilisateurs
+2025-09-08 21:56:36,255 INFO Configuration utilisateurs chargée: 3 utilisateurs
+2025-09-08 21:56:36,408 INFO Configuration utilisateurs chargée: 3 utilisateurs
+2025-09-08 21:56:50,609 ERROR ERREUR CRITIQUE: g.user ou g.user_email manquant après authentification
+2025-09-08 21:58:46,196 INFO Configuration utilisateurs chargée: 3 utilisateurs
+2025-09-08 21:58:46,356 INFO Configuration utilisateurs chargée: 3 utilisateurs
+2025-09-08 21:59:02,050 INFO Authentification - Headers: X-API-Key=***, X-User-Email=l.delevaux@company.com
+2025-09-08 21:59:02,050 INFO Tentative d'authentification pour: l.delevaux@company.com
+2025-09-08 21:59:02,051 INFO Authentification réussie pour: l.delevaux@company.com
+2025-09-08 21:59:02,051 INFO Authentification réussie pour: l.delevaux@company.com
+2025-09-08 21:59:02,051 INFO Récupération plugins pour utilisateur: l.delevaux@company.com
+2025-09-08 23:46:41,405 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:46:50,171 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:46:50,326 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:49:34,923 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:49:34,923 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:49:35,073 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:49:35,073 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:51:54,039 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:51:56,237 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:51:56,237 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:51:56,376 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:52:06,429 INFO Configuration chargée: 2 entreprises
+2025-09-08 23:52:06,582 INFO Configuration chargée: 2 entreprises

@@ -362,6 +362,42 @@ def status():
         return jsonify({'status': 'ERROR', 'error': str(e)}), 500
 
 
+@app.route('/api/track_execution', methods=['POST'])
+def track_execution():
+    """Endpoint pour tracker l'exécution des scripts"""
+
+    try:
+        data = request.get_json()
+        print(f"📦 DEBUG: Données reçues: {data}")
+
+        log_entry = {
+            'timestamp': data.get('timestamp'),
+            'revit_user': data.get('revit_user'),
+            'script_name': data.get('script_name'),
+        }
+
+        # Sauvegarder dans un fichier de logs
+        log_file = os.path.join(LOGS_DIR, 'script_executions.log')
+        print(f"📁 DEBUG: Fichier de log: {log_file}")
+
+        with open(log_file, 'a', encoding='utf-8') as f:
+            f.write(json.dumps(log_entry) + '\n')
+
+        logger.info(f"Script execution tracked: {data.get('script_name')} by {data.get('revit_user')}")
+        print("✅ DEBUG: Log écrit avec succès")
+
+        return jsonify({'status': 'logged'}), 200
+
+    except Exception as e:
+        print(f"💥 DEBUG: Erreur dans track_execution: {e}")
+        import traceback
+        print(f"🔍 DEBUG: Traceback: {traceback.format_exc()}")
+
+        # Même en cas d'erreur serveur, retourner 200 pour ne pas bloquer le client
+        logger.error(f"Error tracking execution: {e}")
+        return jsonify({'status': 'error'}), 200
+
+
 # Gestion des erreurs globales
 @app.errorhandler(404)
 def not_found(e):
